@@ -47,13 +47,16 @@ $(document).ready(function() {
     });
 });
 
+$(document).on("keydown", function(event) {
+    if (isHandled(event)) {
+        event.preventDefault();
+    }
+});
+
 $(document).on("keyup", function(event) {
     const key = event.key.toLowerCase();
     
-    if (key.length != 1 ||
-        key.charCodeAt(0) < "a".charCodeAt(0) ||
-        key.charCodeAt(0) > "z".charCodeAt(0) ||
-        event.ctrlKey || event.altKey || event.metaKey) {
+    if (!isHandled(event)) {
         return;
     }
         
@@ -93,6 +96,17 @@ $(document).on("keyup", function(event) {
     }
 });
 
+function isHandled(event) {
+    const key = event.key;
+    
+    return (
+        key.length == 1 &&
+        key.charCodeAt(0) >= "a".charCodeAt(0) &&
+        key.charCodeAt(0) <= "z".charCodeAt(0) &&
+        !event.ctrlKey && !event.altKey && !event.metaKey
+    )
+}
+
 function win() {
     $("#wins").text(++wins);
     
@@ -114,16 +128,16 @@ function finish() {
     $("#music_title").text(currentComposer.music.title);
     $("#music_performers").text(currentComposer.music.performers);
     
-    let license = currentComposer.music.license;
+    const license = currentComposer.music.license;
     
     if (license !== undefined) {
-        let licenseName = currentComposer.music.license.name;
-        let licenseURL = currentComposer.music.license.url;
+        const licenseName = currentComposer.music.license.name;
+        const licenseURL = currentComposer.music.license.url;
         
         if (licenseURL !== undefined) {
             $("#music_license").text("License: ");
             
-            let licenseLink = $("<a>");
+            const licenseLink = $("<a>");
             
             licenseLink.text(currentComposer.music.license.name);
             licenseLink.attr("href", currentComposer.music.license.url);
