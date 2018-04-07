@@ -1,0 +1,139 @@
+{
+    "composers":
+    [
+        {
+            "name": "Johann Sebastian Bach",
+            "portrait": "bach.jpg",
+            "music": {
+                "title": "Brandenburg Concerto No. 2: III. Allegro assai",
+                "url": "http://ks.petruccimusiclibrary.org/files/imglnks/usimg/f/f2/IMSLP83569-PMLP82078-03_Bach-Mvt_3.mp3",
+                "performers": "Vincent DiMartino, trumpet; Meg Saunders, violin; Elizabeth Arnold, flute; Elizabeth Young Rennick, oboe; Lexington Bach Choir Orchestra",
+                "license": {
+                    "name": "Creative Commons Attribution 3.0",
+                    "url": "https://creativecommons.org/licenses/by/3.0/legalcode"
+                }
+            }
+        },
+        {
+            "name": "Ludwig van Beethoven",
+            "portrait": "beethoven.jpg",
+            "music": {
+                "title": "Piano Sonata in C minor, Op. 111: I. Allegro con brio ed appassionato",
+                "url": "assets/audio/beethoven.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Leoš Janáček",
+            "portrait": "janacek.jpg",
+            "music": {
+                "title": "V mlhách (In the Mists): III. Andantino",
+                "url": "assets/audio/janacek.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Alexander Scriabin",
+            "portrait": "scriabin.jpg",
+            "music": {
+                "title": "Vers la flamme (Toward the Flame)",
+                "url": "assets/audio/scriabin.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Fryderyk Chopin",
+            "portrait": "chopin.jpg",
+            "music": {
+                "title": "Mazurka in F♯ minor, Op. 59, No. 3",
+                "url": "assets/audio/chopin.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Franz Schubert",
+            "portrait": "schubert.jpg",
+            "music": {
+                "title": "Impromptu in G♭ major, Op. 90, No. 3",
+                "url": "assets/audio/schubert.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Béla Bartók",
+            "portrait": "bartok.jpg",
+            "music": {
+                "title": "Out of Doors, Sz. 81: IV. The Night’s Music",
+                "url": "assets/audio/bartok.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Olivier Messiaen",
+            "portrait": "messiaen.jpg",
+            "music": {
+                "title": "Quatuor pour la fin du Temps: VI. Fouillis d’arcs-en-ciel, pour l’Ange qui annonce la fin du Temps",
+                "url": "assets/audio/messiaen.ogg",
+                "performers": "Daniel Williams, clarinet; Pascal Innocenti, violin; Alexander Ellsworth, cello; Charles Srstka, piano; CHAI Collaborative Ensemble; Atlas Arts Media"
+            }
+        },
+        {
+            "name": "Mily Balakirev",
+            "portrait": "balakirev.jpg",
+            "music": {
+                "title": "Islamey: Fantaisie orientale",
+                "url": "assets/audio/balakirev.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Sergei Rachmaninoff",
+            "portrait": "rach.jpg",
+            "music": {
+                "title": "Prelude in G minor, Op. 23, No. 5",
+                "url": "assets/audio/rach.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Franz Liszt",
+            "portrait": "liszt.png",
+            "music": {
+                "title": "Légende No. 2: Saint Francois de Paule marchant sur les flots (Saint Francis of Paola Walking on the Waves)",
+                "url": "assets/audio/liszt.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Franz Joseph Haydn",
+            "portrait": "haydn.jpg",
+            "music": {
+                "title": "Piano Sonata No. 31 in A♭ major: III. Finale: Presto",
+                "url": "assets/audio/haydn.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Wolfgang Amadeus Mozart",
+            "portrait": "mozart.jpg",
+            "music": {
+                "title": "Symphony No. 40 in G minor, K. 550: I. Molto Allegro",
+                "url": "http://ks.petruccimusiclibrary.org/files/imglnks/usimg/a/a8/IMSLP239964-PMLP01572-Symphony_No.40_in_g_minor-I.mp3",
+                "performers": "Das Orchester Tsumugi",
+                "license": {
+                    "name": "Creative Commons Attribution 3.0",
+                    "url": "http://creativecommons.org/licenses/by/3.0/legalcode"
+                }
+            }
+        },
+        {
+            "name": "Johannes Brahms",
+            "portrait": "brahms.jpg",
+            "music": {
+                "title": "Intermezzo in B minor, Op. 119, No. 1",
+                "url": "assets/audio/brahms.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        }
+    ]
+}

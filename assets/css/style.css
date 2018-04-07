@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script|Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-main {
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header-subtitle {
+    margin-top: 0.5em;
+    padding-top: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.body-section {
+    border-style: solid;
+    border-image-slice: 42 42 42 42;
+    border-image-width: 42px 42px 42px 42px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    border-image-source: url("../img/border-image-6.svg");
+    padding: 25px;
+}
+
+.body-section {
+    text-align: center;
+}
+
+.body-section > h1 {
+    font-size: 1.8em;
+}
+
+.body-section > h2 {
+    font-size: 1.5em;
+}
+
+.body-section > h3 {
+    font-size: 1.2em;
+}
+
+.body-section > h1, h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#guess_field {
+    letter-spacing: 0.3em;
+}
+
+#composer_img {
+    width: 50%;
+    margin-bottom: 20px;
+}
