@@ -2,6 +2,7 @@ const initialGuessCount = 12;
 const namePlaceholder = "Guess the Composer!";
 
 let composers = [];
+let notChosenYet = [];
 let currentComposer;
 
 let wins = 0;
@@ -42,6 +43,7 @@ $(document).ready(function() {
                 composers.push(new Composer(composerData));
             });
             
+            notChosenYet = composers.slice();
             restartGame();
         }
     });
@@ -157,7 +159,13 @@ function restartGame() {
         audioElement.trigger("pause");
     }
     
-    currentComposer = composers[Math.floor(Math.random() * composers.length)];
+    if (notChosenYet.length === 0) {
+        notChosenYet = composers.slice();
+    }
+    
+    let index = Math.floor(Math.random() * notChosenYet.length);
+    currentComposer = notChosenYet[index];
+    notChosenYet.splice(index, 1);
     
     correctLetters = [];
     incorrectLetters = [];

@@ -134,6 +134,41 @@
                 "url": "assets/audio/brahms.ogg",
                 "performers": "Charles Srstka, piano"
             }
+        },
+        {
+            "name": "Karol Szymanowski",
+            "portrait": "szymanowski.jpg",
+            "music": {
+                "title": "Mazurka, Op. 50, No. 1",
+                "url": "assets/audio/szymanowski.ogg",
+                "performers": "Charles Srstka, piano"
+            }
+        },
+        {
+            "name": "Maurice Ravel",
+            "portrait": "ravel.jpg",
+            "music": {
+                "title": "Miroirs: III. Une barque sur l’océan",
+                "url": "http://hz.imslp.info/files/imglnks/usimg/c/cc/IMSLP75355-PMLP04225-Maurice_Ravel_-_Une_barque_sur_l'ocean_-_Karstein_Djupdal_2008.mp3",
+                "performers": "Karstein Djupdal, piano",
+                "license": {
+                    "name": "Creative Commons Attribution Non-commercial 3.0",
+                    "url": "http://creativecommons.org/licenses/by-nc/3.0/legalcode"
+                }
+            }
+        },
+        {
+            "name": "Pyotr Tchaikovsky",
+            "portrait": "tchaik.jpg",
+            "music": {
+                "title": "Romeo and Juliet Overture",
+                "url": "http://ks.petruccimusiclibrary.org/files/imglnks/usimg/6/61/IMSLP291840-PMLP03603-dso20130511-002-tchaikovsky-romeo-and-juliet-fantasy-overture.mp3",
+                "performers": "DuPage Symphony Orchestra; Barbara Schubert, conductor",
+                "license": {
+                    "name": "Creative Commons Attribution-NonCommercial 3.0",
+                    "url": "http://creativecommons.org/licenses/by-nc/3.0/legalcode"
+                }
+            }
         }
     ]
 }
