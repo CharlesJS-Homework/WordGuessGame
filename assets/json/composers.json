@@ -6,7 +6,7 @@
             "portrait": "bach.jpg",
             "music": {
                 "title": "Brandenburg Concerto No. 2: III. Allegro assai",
-                "url": "https://ks.petruccimusiclibrary.org/files/imglnks/usimg/f/f2/IMSLP83569-PMLP82078-03_Bach-Mvt_3.mp3",
+                "url": "http://ks.petruccimusiclibrary.org/files/imglnks/usimg/f/f2/IMSLP83569-PMLP82078-03_Bach-Mvt_3.mp3",
                 "performers": "Vincent DiMartino, trumpet; Meg Saunders, violin; Elizabeth Arnold, flute; Elizabeth Young Rennick, oboe; Lexington Bach Choir Orchestra",
                 "license": {
                     "name": "Creative Commons Attribution 3.0",
@@ -118,11 +118,11 @@
             "portrait": "mozart.jpg",
             "music": {
                 "title": "Symphony No. 40 in G minor, K. 550: I. Molto Allegro",
-                "url": "https://ks.petruccimusiclibrary.org/files/imglnks/usimg/a/a8/IMSLP239964-PMLP01572-Symphony_No.40_in_g_minor-I.mp3",
+                "url": "http://ks.petruccimusiclibrary.org/files/imglnks/usimg/a/a8/IMSLP239964-PMLP01572-Symphony_No.40_in_g_minor-I.mp3",
                 "performers": "Das Orchester Tsumugi",
                 "license": {
                     "name": "Creative Commons Attribution 3.0",
-                    "url": "https://creativecommons.org/licenses/by/3.0/legalcode"
+                    "url": "http://creativecommons.org/licenses/by/3.0/legalcode"
                 }
             }
         },
@@ -149,11 +149,11 @@
             "portrait": "ravel.jpg",
             "music": {
                 "title": "Miroirs: III. Une barque sur l’océan",
-                "url": "https://hz.imslp.info/files/imglnks/usimg/c/cc/IMSLP75355-PMLP04225-Maurice_Ravel_-_Une_barque_sur_l'ocean_-_Karstein_Djupdal_2008.mp3",
+                "url": "http://hz.imslp.info/files/imglnks/usimg/c/cc/IMSLP75355-PMLP04225-Maurice_Ravel_-_Une_barque_sur_l'ocean_-_Karstein_Djupdal_2008.mp3",
                 "performers": "Karstein Djupdal, piano",
                 "license": {
                     "name": "Creative Commons Attribution Non-commercial 3.0",
-                    "url": "https://creativecommons.org/licenses/by-nc/3.0/legalcode"
+                    "url": "http://creativecommons.org/licenses/by-nc/3.0/legalcode"
                 }
             }
         },
@@ -162,11 +162,11 @@
             "portrait": "tchaik.jpg",
             "music": {
                 "title": "Romeo and Juliet Overture",
-                "url": "https://ks.petruccimusiclibrary.org/files/imglnks/usimg/6/61/IMSLP291840-PMLP03603-dso20130511-002-tchaikovsky-romeo-and-juliet-fantasy-overture.mp3",
+                "url": "http://ks.petruccimusiclibrary.org/files/imglnks/usimg/6/61/IMSLP291840-PMLP03603-dso20130511-002-tchaikovsky-romeo-and-juliet-fantasy-overture.mp3",
                 "performers": "DuPage Symphony Orchestra; Barbara Schubert, conductor",
                 "license": {
                     "name": "Creative Commons Attribution-NonCommercial 3.0",
-                    "url": "https://creativecommons.org/licenses/by-nc/3.0/legalcode"
+                    "url": "http://creativecommons.org/licenses/by-nc/3.0/legalcode"
                 }
             }
         }
